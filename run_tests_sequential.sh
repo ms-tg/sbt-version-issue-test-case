@@ -9,6 +9,7 @@
 ##
 
 # Download and unzip old Play version per old instructions
+# See http://www.playframework.com/documentation/2.0.x/Installing
 OLD_PLAY_VERSION=2.0.8
 wget http://downloads.typesafe.com/play/${OLD_PLAY_VERSION}/play-${OLD_PLAY_VERSION}.zip
 unzip -q play-${OLD_PLAY_VERSION}.zip
