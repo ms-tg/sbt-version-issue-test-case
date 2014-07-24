@@ -1,4 +1,4 @@
 *~
 target
-play-*
-sbt-extras.sh
+/play-*
+/sbt
