@@ -1,14 +1,6 @@
 language: scala
-scala:
-  - 2.10.1
-  - 2.10.3
-  - 2.10.4
 script:
-  - "cd sample-play22"
-  - "sbt ++$TRAVIS_SCALA_VERSION test"
-  - "cd .."
-  - "cd sample-play23"
-  - "sbt ++$TRAVIS_SCALA_VERSION test"
+  - "./run_tests_sequential.sh"
 jdk:
   - oraclejdk7
   - openjdk7
